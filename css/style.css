@@ -1,0 +1,99 @@
+html,
+body {
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.75px;
+  line-height: 150%;
+}
+
+/* header */
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 1.5rem 1rem;
+}
+
+/* nav need rework */
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem;
+  background-color: blanchedalmond;
+  border-radius: 10rem;
+}
+
+#nav-links {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: beige;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#nav-links.show {
+  display: flex;
+}
+
+/* main */
+/* about */
+/* first about */
+/* continue when there are gif file */
+#first-about {
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+/* #pronounce {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 200%;
+  padding: 1rem;
+}
+
+#welcome {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 200%;
+} */
+#scroll-indicator {
+  padding-bottom: 0.5rem;
+}
+
+video {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 20px;
+  /* border: 0.3rem solid rgb(0, 0, 0); */
+}
+
+/* second about */
+#second-about {
+  height: 100vh;
+}
+
+/* third about */
+#third-about {
+  height: 100vh;
+}
+
+/* fourth about */
+#fourth-about {
+  height: 100vh;
+}

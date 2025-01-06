@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Khoa Nguyen's portfolio</title>
+  </head>
+  <body>
+    <!-- Header with Navbar -->
+    <header>
+      <h1 id="top">KHOA NGUYEN</h1>
+      <nav id="navbar">
+        <div id="menu-icon">menu</div>
+        <div id="nav-links">
+          <ul>
+            <li><a href="#top">About</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- about section -->
+      <section id="about">
+        <div id="first-about">
+          <p id="pronounce">Hi, my name is<br />KHOA /kwaa/ NGUYEN /wuen/</p>
+          <p id="welcome">Welcome to my portfolio</p>
+          <p id="iam">I am an aspiring</p>
+          <div class="intro-slider">
+            <ul class="intro-slider-list">
+              <li class="intro-slider-item">
+                <div class="slider-item-title">
+                  Extended Reality - XR Designer/Developer
+                </div>
+                <video id="myVideoXR" autoplay loop muted>
+                  <source
+                    src="./images/intro_XR_dev_portfolio.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <button class="play-button" id="playButtonXR">pause</button>
+              </li>
+              <li class="intro-slider-item">
+                <div class="slider-item-title">
+                  Interactive Application Designer/Developer
+                </div>
+                <video id="myVideoAppDev" loop muted>
+                  <source
+                    src="./images/intro_app_dev_portfolio.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <button class="play-button" id="playButtonAppDev">play</button>
+              </li>
+              <li class="intro-slider-item">
+                <div class="slider-item-title">
+                  Human-Computer Interaction Researcher
+                </div>
+                <!-- <video id="myVideo" autoplay loop muted>
+                  <source
+                    src="./images/intro_XR_dev_portfolio.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <button class="play-button" id="playButton">pause</button> -->
+              </li>
+            </ul>
+          </div>
+          <div id="scroll-indicator">scroll to explore</div>
+        </div>
+
+        <div id="second-about">
+          <h2>ABOUT ME</h2>
+          <p>
+            I'm pursuing<br />MASTER IN INFORMATION<br />at the<br />UNIVERSITY
+            OF MICHIGAN,
+          </p>
+          <p>GO BLUE!</p>
+          <p>
+            crafting innovative<br />HUMAN-COMPUTER INTERACTION<br />through
+            COLLABORATIVE RESEARCH,<br />DESIGN, and DEVELOPMENT.
+          </p>
+        </div>
+
+        <div id="third-about">
+          <!-- <img src="./images/XR_avatar.jpeg" alt="" /> -->
+          <p>
+            My training involves designing and developing<br />accessible,
+            user-centered experiences<br />with technology like GenAI and
+            Extended Reality (XR)<br />to advance education, healthcare, and
+            entertainment.
+          </p>
+          <p>
+            I am passionate about fostering<br />human connection through
+            technology,<br />leveraging it responsibly with a strong focus on<br />user
+            privacy, accessibility, and data protection.
+          </p>
+        </div>
+
+        <div id="fourth-about">
+          <p>
+            Previously, I gained 2-year working experience as a data analyst at
+          </p>
+          <p>
+            Express Scripts - Big 3 Pharmacy Benefit Managers<br />Cigna -
+            Forbes’ 2024 #16 Fortune Company<br />Earlham College<br />Korn
+            Ferry - Forbes’ 2024 #1 America’s Executive Recruiting Firms
+          </p>
+          <p>
+            where I honed my analytical mindset, business acumen, and project
+            management skills.
+          </p>
+        </div>
+      </section>
+
+      <!-- Value Proposition Section -->
+      <section id="highlights">
+        <h2>Work Highlights</h2>
+        <p>
+          I combine strong user-centered design principles with technical
+          expertise to deliver accessible and innovative solutions that meet
+          real user needs.
+        </p>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p>A brief description of the project and its impact.</p>
+          </div>
+          <div class="project">
+            <h3>Project 2</h3>
+            <p>A brief description of the project and its impact.</p>
+          </div>
+          <div class="project">
+            <h3>Project 3</h3>
+            <p>A brief description of the project and its impact.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Khoa. All rights reserved.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
