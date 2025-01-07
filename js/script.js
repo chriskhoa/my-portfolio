@@ -63,3 +63,16 @@ videoAppDev.addEventListener("play", () => {
 videoAppDev.addEventListener("pause", () => {
   playButtonAppDev.textContent = "play";
 });
+
+// scroll arrow intro
+const scrollContainer = document.querySelector(".card-list");
+const leftArrow = document.querySelector(".scroll-left");
+const rightArrow = document.querySelector(".scroll-right");
+
+leftArrow.addEventListener("click", () => {
+  scrollContainer.scrollBy({ left: -300, behavior: "smooth" }); // Adjust scroll distance
+});
+
+rightArrow.addEventListener("click", () => {
+  scrollContainer.scrollBy({ left: 300, behavior: "smooth" }); // Adjust scroll distance
+});
