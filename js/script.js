@@ -14,9 +14,9 @@ menuIcon.addEventListener("click", function () {
 });
 
 // off vh for first about div
-// const firstAbout = document.getElementById("first-about");
-// const headerHeight = document.querySelector("header").offsetHeight;
-// firstAbout.style.height = `calc(100vh - ${headerHeight}px)`;
+const firstAbout = document.getElementById("first-about");
+const headerHeight = document.querySelector("header").offsetHeight;
+firstAbout.style.height = `calc(100vh - ${headerHeight}px)`;
 
 // play button for intro XR vid
 const videoXR = document.getElementById("myVideoXR");
