@@ -278,4 +278,11 @@ h1 {
 /* fourth about */
 #fourth-about {
   height: 100vh;
+  padding: 0 1rem;
+}
+
+#fourth-about p {
+  font-size: 2.5vh;
+  line-height: 5vh;
+  font-style: italic;
 }
