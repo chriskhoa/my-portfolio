@@ -141,6 +141,10 @@ h1 {
   font-size: 2.5vh;
   line-height: 3vh;
   align-self: flex-start;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 3vh;
 }
 #placeholder {
   height: 50vh;
@@ -202,7 +206,7 @@ h1 {
 
 #msi {
   font-size: 2.5vh;
-  line-height: 5vh;
+  line-height: 4.5vh;
   font-style: italic;
   align-self: flex-start;
   text-align: start;
@@ -234,7 +238,7 @@ h1 {
   align-self: flex-end;
   text-align: end;
   font-size: 2.5vh;
-  line-height: 5vh;
+  line-height: 4.5vh;
   font-style: italic;
 }
 
